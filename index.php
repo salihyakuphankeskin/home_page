@@ -9,3 +9,6 @@
     hello
 </body>
 </html>
+<?php
+echo"merhaba";
+?>
