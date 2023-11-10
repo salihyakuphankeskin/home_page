@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./world-wide-web.png" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/main-page/main.css">
+    <style>
+      p.test1 {
+        width: 140px;
+        border: 1px solid #000000;
+        word-break: keep-all;
+      }
+
+      p.test2 {
+        width: 140px;
+        border: 1px solid #000000;
+        word-break: break-all;
+      }
+
+      p.test {
+        width: 11em;
+        border: 1px solid #000000;
+        word-wrap: break-word;
+      }
+
+      .random {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100px;
+        height: 100px;
+        border-radius: 40%;
+        background-color: red;
+        animation: example 10s infinite ease-in-out;
+        animation-delay: 1s;
+      }
+
+      @keyframes example {
+        0% {
+          background-color: red;
+          color: white;
+          left: 0px;
+        }
+        25% {
+          background-color: yellow;
+          color: purple;
+          scale: 50%;
+        }
+        50% {
+          background-color: blue;
+          scale: 100%;
+          left: 50vw;
+          color: white;
+          opacity: 50%;
+        }
+        100% {
+          background-color: green;
+          color: black;
+          left: 0px;
+        }
+      }
+      .newo {
+        border: 2px solid;
+        padding: 20px;
+        width: 300px;
+        resize: horizontal;
+        overflow: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <a href="./index.html"> 1. sayfa</a>
+      <a href="./index2.html"> 2. sayfa</a>
+      <a href="./index3.html"> 3. sayfa</a>
+      <a href="./index4.html"> 4. sayfa</a>
+      <a href="./index5.html"> 5. sayfa</a>
+      <a href="./index6.html"> 6. sayfa</a>
+      <a href="./index7.html"> 7. sayfa</a>
+      <a href="./index8.html"> 8. sayfa</a>
+      <a href="./index9.html"> 9. sayfa</a>
+      <a href="./index10.html"> 10. sayfa</a>
+    </div>
+
+    <h1>The word-break Property</h1>
+    <p class="test">
+      This paragraph contains a very long word:
+      thisisaveryveryveryveryveryverylongword. The long word will break and wrap
+      to the next line.
+    </p>
+    <p class="test1">
+      This paragraph contains some text. This line will-break-at-hyphens.
+    </p>
+    <p class="test2">
+      This paragraph contains some text. The lines will break at any character.
+    </p>
+
+    <table class="ws-table-all notranslate">
+      <tbody>
+        <tr>
+          <th style="width: 23%">Function</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>matrix(<i>n,n,n,n,n,n</i>)</td>
+          <td>Defines a 2D transformation, using a matrix of six values</td>
+        </tr>
+        <tr>
+          <td>translate(<i>x,y</i>)</td>
+          <td>
+            Defines a 2D translation, moving the element along the X- and the
+            Y-axis
+          </td>
+        </tr>
+        <tr>
+          <td>translateX(<i>n</i>)</td>
+          <td>Defines a 2D translation, moving the element along the X-axis</td>
+        </tr>
+        <tr>
+          <td>translateY(<i>n</i>)</td>
+          <td>Defines a 2D translation, moving the element along the Y-axis</td>
+        </tr>
+        <tr>
+          <td>scale(<i>x,y</i>)</td>
+          <td>
+            Defines a 2D scale transformation, changing the elements width and
+            height
+          </td>
+        </tr>
+        <tr>
+          <td>scaleX(<i>n</i>)</td>
+          <td>
+            Defines a 2D scale transformation, changing the element's width
+          </td>
+        </tr>
+        <tr>
+          <td>scaleY(<i>n</i>)</td>
+          <td>
+            Defines a 2D scale transformation, changing the element's height
+          </td>
+        </tr>
+        <tr>
+          <td>rotate(<i>angle</i>)</td>
+          <td>
+            Defines a 2D rotation, the angle is specified in the parameter
+          </td>
+        </tr>
+        <tr>
+          <td>skew(<i>x-angle,y-angle</i>)</td>
+          <td>Defines a 2D skew transformation along the X- and the Y-axis</td>
+        </tr>
+        <tr>
+          <td>skewX(<i>angle</i>)</td>
+          <td>Defines a 2D skew transformation along the X-axis</td>
+        </tr>
+        <tr>
+          <td>skewY(<i>angle</i>)</td>
+          <td>Defines a 2D skew transformation along the Y-axis</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table class="ws-table-all notranslate">
+      <tbody>
+        <tr>
+          <th>Property</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td><a href="/cssref/css3_pr_transition.asp">transition</a></td>
+          <td>
+            A shorthand property for setting the four transition properties into
+            a single property
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="/cssref/css3_pr_transition-delay.asp">transition-delay</a>
+          </td>
+          <td>Specifies a delay (in seconds) for the transition effect</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="/cssref/css3_pr_transition-duration.asp"
+              >transition-duration</a
+            >
+          </td>
+          <td>
+            Specifies how many seconds or milliseconds a transition effect takes
+            to complete
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="/cssref/css3_pr_transition-property.asp"
+              >transition-property</a
+            >
+          </td>
+          <td>
+            Specifies the name of the CSS property the transition effect is for
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="/cssref/css3_pr_transition-timing-function.asp"
+              >transition-timing-function</a
+            >
+          </td>
+          <td>Specifies the speed curve of the transition effect</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h1>CSS Animation</h1>
+    <div class="random">
+      <b style="word-break: break-all; font-size: 1.5rem">SPIN</b>
+    </div>
+    <p>
+      <b>Note:</b> When an animation is finished, it goes back to its original
+      style.
+    </p>
+
+    <h1>The resize Property</h1>
+    <div class="newo">
+      <p>Let the user resize only the width of this div element.</p>
+      <p>
+        To resize: Click and drag the bottom right corner of this div element.
+      </p>
+    </div>
+  </body>
+</html>

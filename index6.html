@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./world-wide-web.png">
+    <title>Document</title>
+    <link rel="stylesheet" href="/main-page/main.css">
+    <style>
+        details[open] summary ~ * {animation: sweep .5s ease-in-out;}
+        @keyframes sweep {
+            0%    {opacity: 0; transform: translateX(-10px)}
+            100%  {opacity: 1; transform: translateX(0)}
+        }
+    </style>
+</head>
+<body>    
+    <div>
+        <a href="./index.html">     1. sayfa</a>
+        <a href="./index2.html">    2. sayfa</a>
+        <a href="./index3.html">    3. sayfa</a>
+        <a href="./index4.html">    4. sayfa</a>
+        <a href="./index5.html">    5. sayfa</a>
+        <a href="./index6.html">    6. sayfa</a>
+        <a href="./index7.html">    7. sayfa</a>
+        <a href="./index8.html">    8. sayfa</a>
+        <a href="./index9.html">    9. sayfa</a>
+        <a href="./index10.html">   10. sayfa</a>
+    </div>
+
+    <h3>DIV</h3>
+    <div></div>
+
+    <H3>MARQUEE</H3>
+    <marquee direction="right">
+      This text will scroll from right to left
+    </marquee>
+    <marquee direction="up">
+      This text will scroll from bottom to top
+    </marquee>    
+    <marquee direction="down" width="250" height="200"behavior="alternate"style="border:solid">
+      <marquee behavior="alternate">
+        This text will bounce
+      </marquee>
+    </marquee>
+
+    <H3>SUP</H3>
+    <div>
+      a<sup>2</sup>
+       + b<sup>2</sup> = c
+       <sup>2</sup>
+    </div>
+
+    <H3>optgroup</H3>
+    <label for="dino-select">
+      Choose a dinosaur:
+    </label>
+      <select id="dino-select">
+        <optgroup label="Theropods">
+          <option>Tyrannosaurus</option>
+          <option>Velociraptor</option>
+          <option>Deinonychus</option>
+        </optgroup>
+        <optgroup label="Sauropods">
+          <option>Diplodocus</option>
+          <option>Saltasaurus</option>
+          <option>Apatosaurus</option>
+        </optgroup>
+      </select>
+
+    <H3>source</H3>
+    <source media="(min-width: )" srcset="">
+
+    <H3>i</H3>
+    <p>
+      I looked at it and thought 
+      <i>This can't be real!</i>
+    </p>
+
+    <H3>select</H3>
+    <label for="pet-select">
+      Choose a pet: 
+    </label>
+    <br>
+    <select name="pets" id="pet-select">
+      <option value="">--Please choose an option--</option>
+      <option value="dog">Dog</option>
+      <option value="cat">Cat</option>
+      <option value="hamster">Hamster</option>
+      <option value="parrot">Parrot</option>
+      <option value="spider">Spider</option>
+      <option value="goldfish">Goldfish</option>
+    </select>    
+
+    <H3>link</H3>
+    <link rel="stylesheet" href="">
+
+    <H3>canvas</H3>
+    <canvas width="120" height="120" style="background-color: green;">
+      An alternative text describing what your canvas displays.
+    </canvas>    
+
+    <H3>details</H3>
+    <details>
+      <summary>
+        Details
+      </summary>
+      Something small enough to escape casual notice.
+    </details>
+
+    <details>
+        <summary>Copyright 1999-2014.</summary>
+        <p> - by Refsnes Data. All Rights Reserved.</p>
+        <p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
+    </details>
+
+    <H3>p</H3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, eius!</p>
+
+    <H3>mark</H3>
+    <p>
+      Several species of <mark>salamander</mark> inhabit the temperate rainforest of the Pacific Northwest.
+    </p>
+
+    <H3>noscript</H3>
+    <p>
+      The noscript HTML element defines a section of 
+      HTML to be inserted if a script type on the page is 
+      unsupported or if scripting is currently turned off in the browser.
+    </p>
+      <noscript>
+        <a href="https://www.mozilla.org/">External Link</a>
+      </noscript>    
+    
+    <H3>pre</H3>
+    <pre>
+      L          TE
+        A       A
+          C    V
+           R A
+           DOU
+           LOU
+          REUSE
+          QUE TU
+          PORTES
+        ET QUI T'
+        ORNE O CI
+         VILISÉ
+        OTE-  TU VEUX
+         LA    BIEN
+        SI      RESPI
+                RER       - Apollinaire
+    </pre>    
+
+    <H3>img</H3>
+    <img src="" alt="" srcset="">
+
+    <H3>form</H3>
+    <form action="" method="get" class="form-example">
+      <div class="form-example">
+        <label for="name">Enter your name: </label>
+        <input type="text" name="name" id="name" required />
+      </div>
+      <div class="form-example">
+        <label for="email">Enter your email: </label>
+        <input type="email" name="email" id="email" required />
+      </div>
+      <div class="form-example">
+        <input type="submit" value="Subscribe!" />
+      </div>
+    </form>    
+
+    <H3>table</H3>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">The table header</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>The table body</td>
+          <td>with two columns</td>
+        </tr>
+      </tbody>
+    </table>    
+
+    <H3>iframe</H3>
+    <iframe
+      id="inlineFrameExample"
+      title="Inline Frame Example"
+      width="300"
+      height="300"
+      src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+    </iframe>
+    <iframe
+      id="inlineFrameExample"
+      title="Inline Frame Example"
+      width="300"
+      height="300"
+      referrerpolicy="origin"
+      loading="eager"
+      src="./index.html">
+    </iframe>
+
+
+    <H3>embed</H3>
+    <embed style="border: 1px solid violet;" src="disappointing.gif" title="Title of my video" />
+    <img src="disappointing.gif" alt="Disappointing GIF">
+    <H3>source</H3>
+    <video controls width="250" height="200" muted>
+      <source src="" type="image/gif,video/mp4"/>
+    </video>
+    <H3>source</H3>
+
+    <h3>math</h3>
+    <p>
+        The infinite sum
+        <math display="block">
+          <mrow>
+            <munderover>
+              <mo>∑</mo>
+              <mrow>
+                <mi>n</mi>
+                <mo>=</mo>
+                <mn>1</mn>
+              </mrow>
+              <mrow>
+                <mo>+</mo>
+                <mn>∞</mn>
+              </mrow>
+            </munderover>
+            <mfrac>
+              <mn>1</mn>
+              <msup>
+                <mi>n</mi>
+                <mn>2</mn>
+              </msup>
+            </mfrac>
+          </mrow>
+        </math>
+        is equal to the real number
+        <math display="inline">
+          <mfrac>
+            <msup>
+              <mi>π</mi>
+              <mn>2</mn>
+            </msup>
+            <mn>6</mn>
+          </mfrac></math>.
+    </p>     
+</body>
+</html>

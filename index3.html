@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="./world-wide-web.png">
+    <link rel="stylesheet" href="/main-page/main.css">
+</head>
+<body>
+    <div>
+        <a href="./index.html">     1. sayfa</a>
+        <a href="./index2.html">    2. sayfa</a>
+        <a href="./index3.html">    3. sayfa</a>
+        <a href="./index4.html">    4. sayfa</a>
+        <a href="./index5.html">    5. sayfa</a>
+        <a href="./index6.html">    6. sayfa</a>
+        <a href="./index7.html">    7. sayfa</a>
+        <a href="./index8.html">    8. sayfa</a>
+        <a href="./index9.html">    9. sayfa</a>
+        <a href="./index10.html">   10. sayfa</a>
+    </div>
+
+    <div>
+        <div title="GOOGLE site" target="__blank" onclick="document.location='https://www.google.com.tr'">This is a link to GOOGLE</div>
+    <br>
+    <a href="https://www.google.com.tr" title="GOOGLE site" target="__blank" >This is a link to GOOGLE in new page</a>
+    <br>
+    <p><img src="https://www.w3schools.com/html/smiley.gif" alt="smiley" style="float:left;width:42px;height:42px;">
+    The image will float to the left of the text.</p>
+
+    <img src="https://www.w3schools.com/html/workplace.jpg" alt="Workplace" usemap="#workmap">
+
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://www.w3schools.com/html/computer.htm">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://www.w3schools.com/html/phone.htm">
+        <area shape="circle" coords="337,300,44" alt="Coffee" href="https://www.w3schools.com/html/coffee.htm">
+    </map>
+    <div>
+        <h4>Shape="rect"</h4>
+        <p> The coordinates for shape="rect" come in pairs, one for the x-axis and one for the y-axis.</p>
+        <p>So, the coordinates 34,44 is located 34 pixels from the left margin and 44 pixels from the top.</p>
+        <p>The coordinates 270,350 is located 270 pixels from the left margin and 350 pixels from the top.</p>
+    </div>
+    <hr>
+    <div>
+        <h4>Shape="circle"</h4>
+        <p>To add a circle area, first locate the coordinates of the center of the circle: 337,300</p>
+        <p>Then specify the radius of the circle: 44 pixels</p>
+    </div>
+    <hr>
+    <div>
+        <h4>Shape="poly"</h4>
+        <p>The shape="poly" contains several coordinate points, which creates a shape formed with straight lines (a polygon). <br>
+
+            This can be used to create any shape. <br>
+            
+            Like maybe a croissant shape! <br>
+            
+            How can we make the croissant in the image below become a clickable link?<br>
+        </p>
+        <img src="https://www.w3schools.com/html/frenchfood.jpg" alt="French Food" usemap="#foodmap" width="450" height="675">
+
+        <map name="foodmap">
+          <area shape="poly" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147" alt="Croissant" href="https://www.w3schools.com/html/croissant.htm">
+        </map>
+    </div>
+    <hr>
+    </div>
+</body>
+</html>
